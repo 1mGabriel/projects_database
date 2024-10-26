@@ -1,9 +1,178 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    "destaques":[
+        {
+            "id": 0,
+            "name": "Lamborghini",
+            "mbimg1": "https://cerulean-bombolone-4bdec2.netlify.app/img/mb-projeto1.png",
+            "mbimg2": "https://cerulean-bombolone-4bdec2.netlify.app/img/mb-projeto2.png",
+            "pcimg1":"https://cerulean-bombolone-4bdec2.netlify.app/img/pc-projeto1.png",
+            "pcimg2": "https://cerulean-bombolone-4bdec2.netlify.app/img/pc-projeto2.png",
+            "description": "Site desenvolvido para a marca 'Lamborghini', a fins de estudo e pratica em layout, animações de scroll e imagens ",
+            "deploy": "https://lamborghini-pi.vercel.app/",
+            "code": "https://github.com/1mGabriel/lamborghini",
+            "tecnologies": ["Html", "Css"]
+
+        }
+        ,
+        {
+            "id": 1,
+            "name": "Street Under",
+            "mbimg1": "https://cerulean-bombolone-4bdec2.netlify.app/img/mb-projeto3.png",
+            "mbimg2": "https://cerulean-bombolone-4bdec2.netlify.app/img/mb-projeto4.png",
+            "pcimg1":"https://cerulean-bombolone-4bdec2.netlify.app/img/pc-projeto3.png",
+            "pcimg2": "https://cerulean-bombolone-4bdec2.netlify.app/img/pc-projeto4.png",
+            "description": "E-comerce desenvolvido com React, um desafio com requisição de Api de reutilização de componentes com variações de atributos e contextos",
+            "deploy": "https://ecomerce-street.vercel.app/",
+            "code": "https://github.com/1mGabriel/ecomerce-street",
+            "tecnologies": ["Html", "Css", "React", "Javacript"]
+
+        }
+        ,
+        {
+            "id": 2,
+            "name": "Login Screen",
+            "mbimg1": "https://cerulean-bombolone-4bdec2.netlify.app/img/mb-projeto5.png",
+            "mbimg2": "https://cerulean-bombolone-4bdec2.netlify.app/img/mb-projeto6.png",
+            "pcimg1":"https://cerulean-bombolone-4bdec2.netlify.app/img/pc-projeto5.png",
+            "pcimg2": "https://cerulean-bombolone-4bdec2.netlify.app/img/pc-projeto6.png",
+            "description": "Página de login desenvolvida com React, foi utilizado a biblioteca 'react-router-dom' para criação de rotas entre login e cadastros.",
+            "deploy": "https://login-screen-olive-three.vercel.app/",
+            "code": "https://github.com/1mGabriel/Login-screen",
+            "tecnologies": ["Html", "Css", "React", "Javacript"]
+
+        }
+        ,
+        {
+            "id": 3,
+            "name": "CoDev",
+            "mbimg1": "https://cerulean-bombolone-4bdec2.netlify.app/img/mb-projeto7.png",
+            "mbimg2": "https://cerulean-bombolone-4bdec2.netlify.app/img/mb-projeto8.png",
+            "pcimg1":"https://cerulean-bombolone-4bdec2.netlify.app/img/pc-projeto7.png",
+            "pcimg2": "https://cerulean-bombolone-4bdec2.netlify.app/img/pc-projeto8.png",
+            "description": "Site institucional feito para um grupo  que fornece planos de streaming para desenvolvedores.",
+            "deploy": "https://codev-snowy.vercel.app/",
+            "code": "https://github.com/1mGabriel/codev",
+            "tecnologies": ["Html", "Css", "Jquery", "Javacript"]
+
+        }
+    ]
+    ,
+    "all-projects":[
+        {
+            "id": 0,
+            "name": "GStore",
+            "mbimg1": "https://cerulean-bombolone-4bdec2.netlify.app/img/mb-projeto9.png",
+            "mbimg2": "https://cerulean-bombolone-4bdec2.netlify.app/img/mb-projeto10.png",
+            "pcimg1":"https://cerulean-bombolone-4bdec2.netlify.app/img/pc-projeto9.png",
+            "pcimg2": "https://cerulean-bombolone-4bdec2.netlify.app/img/pc-projeto10.png",
+            "description": " E-comerce desenvolvido com React, um desafio com requisição de Api de reutilização de componentes com variações de atributos e contextos.",
+            "deploy": "https://gstore-10.vercel.app/",
+            "code": "https://github.com/1mGabriel/Gstore-React",
+            "tecnologies": ["Html", "Css", "Jquery", "Javacript"]
+        }
+        ,
+        {
+            "id": 1,
+            "name": "Gerador de Qr-code",
+            "mbimg1": "https://cerulean-bombolone-4bdec2.netlify.app/img/mb-projeto11.png",
+            "mbimg2": "https://cerulean-bombolone-4bdec2.netlify.app/img/mb-projeto12.png",
+            "pcimg1":"https://cerulean-bombolone-4bdec2.netlify.app/img/pc-projeto11.png",
+            "pcimg2": "https://cerulean-bombolone-4bdec2.netlify.app/img/pc-projeto12.png",
+            "description": "Sistema de geração de qr code, através de uma url inserida pelo o usuário, gerando então o qr code por meio de um endpoint na src da imagem.",
+            "deploy": "https://geradorqcr.vercel.app/",
+            "code": "https://github.com/1mGabriel/gerador_qcr",
+            "tecnologies": ["Html", "Css", "Javacript"]
+        }
+        ,
+        {
+            "id": 2,
+            "name": "To do list",
+            "mbimg1": "https://cerulean-bombolone-4bdec2.netlify.app/img/mb-projeto13.png",
+            "mbimg2": "https://cerulean-bombolone-4bdec2.netlify.app/img/mb-projeto14.png",
+            "pcimg1":"https://cerulean-bombolone-4bdec2.netlify.app/img/pc-projeto13.png",
+            "pcimg2": "https://cerulean-bombolone-4bdec2.netlify.app/img/pc-projeto14.png",
+            "description": "To do list básico, com manipulação de classes, eventos e barra de pesquisa com DOM.",
+            "deploy": "https://geradorqcr.vercel.app/",
+            "code": "https://github.com/1mGabriel/gerador_qcr",
+            "tecnologies": ["Html", "Css", "Javacript"]
+        }
+        ,
+        {
+            "id": 3,
+            "name": "Gerador de senha",
+            "mbimg1": "https://cerulean-bombolone-4bdec2.netlify.app/img/mb-projeto15.png",
+            "mbimg2": "https://cerulean-bombolone-4bdec2.netlify.app/img/mb-projeto16.png",
+            "pcimg1":"https://cerulean-bombolone-4bdec2.netlify.app/img/pc-projeto15.png",
+            "pcimg2": "https://cerulean-bombolone-4bdec2.netlify.app/img/pc-projeto16.png",
+            "description": "Página de login, sua particularidade é a geração de senha para o usuário, com comandos de copiar e colar para praticidade e acessibilidade.",
+            "deploy": "https://gerador-senha-zeta-eight.vercel.app/",
+            "code": "https://github.com/1mGabriel/gerador-senha",
+            "tecnologies": ["Html", "Css", "Javacript"]
+        }
+        ,
+        {
+            "id": 4,
+            "name": "Calculadora de IMC",
+            "mbimg1": "https://cerulean-bombolone-4bdec2.netlify.app/img/mb-projeto17.png",
+            "mbimg2": "https://cerulean-bombolone-4bdec2.netlify.app/img/mb-projeto18.png",
+            "pcimg1":"https://cerulean-bombolone-4bdec2.netlify.app/img/pc-projeto17.png",
+            "pcimg2": "https://cerulean-bombolone-4bdec2.netlify.app/img/pc-projeto18.png",
+            "description": "Sistema para cálculo IMC, desenvolvido a fim de estudos sobre renderizações de tabelas em html e estilizações condicionais.",
+            "deploy": "https://calculator-imc-six.vercel.app/",
+            "code": "https://github.com/1mGabriel/calculator_imc",
+            "tecnologies": ["Html", "Css", "Javacript"]
+        }
+        ,
+        {
+            "id": 5,
+            "name": "Landing Page",
+            "mbimg1": "https://cerulean-bombolone-4bdec2.netlify.app/img/mb-projeto19.png",
+            "mbimg2": "https://cerulean-bombolone-4bdec2.netlify.app/img/mb-projeto20.png",
+            "pcimg1":"https://cerulean-bombolone-4bdec2.netlify.app/img/pc-projeto19.png",
+            "pcimg2": "https://cerulean-bombolone-4bdec2.netlify.app/img/pc-projeto20.png",
+            "description": "Landig page profissional para conversão de clientes do nicho de psicologia, prezando a distribuição dos containers para um design mais limpo e organizado.",
+            "deploy": "https://land-page-psiclogia.vercel.app/",
+            "code": "https://github.com/1mGabriel/land-page-psiclogia",
+            "tecnologies": ["Html", "Css"]
+        }
+        ,
+        {
+            "id": 6,
+            "name": "Tabuada",
+            "mbimg1": "https://cerulean-bombolone-4bdec2.netlify.app/img/mb-projeto21.png",
+            "mbimg2": "https://cerulean-bombolone-4bdec2.netlify.app/img/mb-projeto22.png",
+            "pcimg1":"https://cerulean-bombolone-4bdec2.netlify.app/img/pc-projeto21.png",
+            "pcimg2": "https://cerulean-bombolone-4bdec2.netlify.app/img/pc-projeto22.png",
+            "description": "Tabuada dinâmica com JavScript, estudo  e utilização do método 'For' para percorrer o input do usuário e renderizar os resultados.",
+            "deploy": "https://tabuada-in-js.vercel.app/",
+            "code": "https://github.com/1mGabriel/tabuada_in_JS",
+            "tecnologies": ["Html", "Css", "JavaScript"]
+        }
+        ,
+        {
+            "id": 7,
+            "name": "Clone Iphone",
+            "mbimg1": "https://cerulean-bombolone-4bdec2.netlify.app/img/mb-projeto23.png",
+            "mbimg2": "https://cerulean-bombolone-4bdec2.netlify.app/img/mb-projeto24.png",
+            "pcimg1":"https://cerulean-bombolone-4bdec2.netlify.app/img/pc-projeto23.png",
+            "pcimg2": "https://cerulean-bombolone-4bdec2.netlify.app/img/pc-projeto24.png",
+            "description": "Clone da página de vendas do iphone, compreensão de layout e estruturação com Html. O objetivo central foi replicar o máximo possivel um design limpo como a página da Apple.",
+            "deploy": "https://page-iphone-two.vercel.app/",
+            "code": "https://github.com/1mGabriel/Page_Iphone",
+            "tecnologies": ["Html", "Css"]
+        }
+        ,
+        {
+            "id": 8,
+            "name": "App de finanças",
+            "mbimg1": "https://cerulean-bombolone-4bdec2.netlify.app/img/mb-projeto25.png",
+            "mbimg2": "https://cerulean-bombolone-4bdec2.netlify.app/img/mb-projeto26.png",
+            "pcimg1":"https://cerulean-bombolone-4bdec2.netlify.app/img/pc-projeto25.png",
+            "pcimg2": "https://cerulean-bombolone-4bdec2.netlify.app/img/pc-projeto26.png",
+            "description": "Gerenciador de finanças desenvolvido para web, sendo possível fazer 'entradas' e 'saques', com sessões funcionais de faturas e pagamentos. Disponível apenas pra mobile",
+            "deploy": "https://gfin-tech.vercel.app/",
+            "code": "https://github.com/1mGabriel/Gfin-tech",
+            "tecnologies": ["Html", "Css", "React"]
+        }
+    ]
 }
